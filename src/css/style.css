@@ -1,0 +1,14 @@
+@import url(variables.css);
+
+.produtores{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: cadetblue;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin: 100px auto;
+}
