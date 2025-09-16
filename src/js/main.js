@@ -10,3 +10,5 @@ VerResultado.addEventListener('click', ()=>{
 Fechar.addEventListener('click', ()=>{
     Modal.close()
 })
+
+console.log('ola mundo')
