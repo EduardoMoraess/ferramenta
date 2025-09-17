@@ -1,14 +1,18 @@
-const VerResultado = document.getElementById('resultado');
-const Modal = document.querySelector('dialog');
-const Fechar = document.getElementById('fechar');
+function Produtor1(){
+    const verresultado = document.getElementById('resultado');
+    const fechar = document.getElementById('fechar');
+    const Modal = document.querySelector('dialog');
 
+    verresultado.addEventListener('click', ()=>{
+        Modal.show()
+    })
 
-VerResultado.addEventListener('click', ()=>{
-    Modal.show()
-})
+    fechar.addEventListener('click', ()=>{
+        Modal.close()
+    })
+}
+Produtor1()
 
-Fechar.addEventListener('click', ()=>{
-    Modal.close()
-})
+function Produtor2(){}
 
-console.log('ola mundo')
+function Produtor3(){}
