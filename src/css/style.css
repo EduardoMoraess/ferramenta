@@ -42,12 +42,13 @@ img{
     flex-direction: column;
 }
 
-dialog{
+.texto-dialogo dialog{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin: -320px auto;
+    margin: auto;
 
     width: 300px;
+    height: auto;
 }
