@@ -1,0 +1,9 @@
+====== Primeiro Projeto =========
+
+Calculadora de Porcentagem:
+
+ValorProcentagem vezes Valor dividindo por 100 depois 
+
+igual valor valor correspondente ao porcentagem do valor calculado.
+
+==========================================================================
